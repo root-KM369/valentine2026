@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STELLAR NEXUS • My Valentine Ellu</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Orbitron:wght@400;500;700&display=swap');
+
+    :root { --gold: #f4c95d; --cyan: #67e8f9; }
+    body { font-family: 'Inter', system-ui, sans-serif; }
+    .heading-font { font-family: 'Playfair Display', serif; }
+    .future-font { font-family: 'Orbitron', sans-serif; }
+
+    .star-canvas { position: fixed; inset: 0; z-index: -1; background: radial-gradient(circle at center, #0a0a1f 0%, #000 75%); }
+
+    .section {
+      opacity: 0;
+      transform: translateY(80px);
+      transition: all 1.4s cubic-bezier(0.23, 1, 0.32, 1);
+    }
+    .section.visible { opacity: 1; transform: translateY(0); }
+
+    .neon-gold { text-shadow: 0 0 20px var(--gold), 0 0 40px var(--gold); }
+    .neon-cyan { text-shadow: 0 0 20px var(--cyan), 0 0 40px var(--cyan); }
+
+    .holo-card {
+      background: rgba(10, 10, 31, 0.6);
+      border: 1px solid rgba(244, 201, 93, 0.3);
+      box-shadow: 0 0 60px -10px rgb(244 201 93 / 0.4),
+                  inset 0 0 40px -20px rgb(103 232 249 / 0.2);
+    }
+  </style>
+</head>
+<body class="bg-[#05050f] text-white overflow-x-hidden">
+
+  <canvas id="stars" class="star-canvas"></canvas>
+
+  <!-- NAV -->
+  <nav class="fixed top-0 left-0 right-0 z-50 bg-[#05050f]/90 backdrop-blur-xl border-b border-white/10">
+    <div class="max-w-5xl mx-auto px-6 py-5 flex justify-between items-center">
+      <div class="future-font text-lg tracking-[3px] text-amber-300">STELLAR NEXUS</div>
+      <div class="flex gap-8 text-xs uppercase tracking-widest">
+        <a href="#origin" class="nav-link hover:text-cyan-300 transition">ORIGIN</a>
+        <a href="#moments" class="nav-link hover:text-cyan-300 transition">MEMORIES</a>
+        <a href="#essence" class="nav-link hover:text-cyan-300 transition">YOUR LIGHT</a>
+        <a href="#vows" class="nav-link hover:text-cyan-300 transition">VOWS</a>
+        <a href="#letter" class="nav-link hover:text-cyan-300 transition">LETTER</a>
+        <a href="#horizon" class="nav-link hover:text-cyan-300 transition">ETERNITY</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="min-h-screen flex items-center justify-center relative">
+    <div class="text-center z-10 px-6 max-w-4xl">
+      <p class="future-font text-cyan-300 text-sm tracking-[4px] mb-3">VALENTINE PROTOCOL 2026 • ACTIVATED</p>
+      <h1 class="heading-font text-7xl md:text-8xl leading-none mb-6 neon-gold">
+        My Dearest <span class="text-cyan-300">Ellu</span>
+      </h1>
+      <p class="text-3xl text-white/70">I mapped the entire universe<br>and still found you at its center.</p>
+    </div>
+  </section>
+
+  <!-- ORIGIN -->
+  <section id="origin" class="section py-28">
+    <div class="max-w-3xl mx-auto px-6 text-center">
+      <h2 class="future-font text-5xl mb-10 text-amber-300">THE ORIGIN POINT</h2>
+      <div class="prose prose-lg prose-invert max-w-none text-white/80 leading-relaxed">
+        <p>Valentine's Infinite
+
+I discovered you in the quiet spaces between heartbeats—
+a presence so natural, it felt like remembering.
+
+Your essence moves through me like sunlight through ancient stone,
+revealing patterns I never knew existed.
+
+I notice how your laughter shifts the air itself,
+how your gaze holds universes others overlook,
+the effortless grace that turns ordinary moments eternal.
+
+We exist in a realm beyond time's measure—
+where glances become promises,
+silences speak volumes of truth.
+
+What draws me is your unyielding light,
+the way you navigate storms with quiet fire,
+how you make my thoughts sharper, deeper, more alive.
+You fill all the colors in my
+
+No grand declarations needed.
+Our connection writes itself in the spaces between breaths.
+
+You awaken what was always there, waiting.
+
+In your orbit, I am found—effortlessly, endlessly..</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- MEMORIES TIMELINE -->
+ <!-- MEMORIES TIMELINE -->
+<section id="moments" class="section py-28 bg-black/30">
+  <div class="max-w-4xl mx-auto px-6">
+    <h2 class="future-font text-5xl text-center mb-16 text-amber-300">FREQUENCIES WE WOVE</h2>
+    
+    <div class="space-y-28 relative">
+      <div class="absolute left-1/2 top-8 bottom-8 w-px bg-gradient-to-b from-transparent via-cyan-300/60 to-transparent"></div>
+
+      <!-- 1 -->
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div class="text-right">
+          <div class="text-cyan-300 text-xs tracking-widest">FREQUENCY 001</div>
+          <div class="text-4xl heading-font mt-3">The First Alignment</div>
+        </div>
+        <div class="text-white/70">The exact instant our energies crossed the digital void and locked into perfect resonance — as if the universe itself exhaled in recognition.</div>
+      </div>
+
+      <!-- 2 -->
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div class="text-white/70 md:text-right">The long nights when our words became living current, pulsing back and forth, charging the space between us until distance felt like nothing more than a thin veil of light.</div>
+        <div class="md:text-left">
+          <div class="text-cyan-300 text-xs tracking-widest">FREQUENCY 002</div>
+          <div class="text-4xl heading-font mt-3">The Living Current</div>
+        </div>
+      </div>
+
+      <!-- 3 -->
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div class="text-right">
+          <div class="text-cyan-300 text-xs tracking-widest">FREQUENCY 003</div>
+          <div class="text-4xl heading-font mt-3">The Silent Resonance</div>
+        </div>
+        <div class="text-white/70">Subconscious makes 
+        . .</div>
+      </div>
+
+      <!-- 4 -->
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div class="text-white/70 md:text-right">The moment we realised our souls had already become quantumly entangled — every dream we shared was already written in the same cosmic code.</div>
+        <div class="md:text-left">
+          <div class="text-cyan-300 text-xs tracking-widest">FREQUENCY 004</div>
+          <div class="text-4xl heading-font mt-3">The Entangled Future</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- ESSENCE -->
+  <section id="essence" class="section py-28">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h2 class="future-font text-5xl mb-16 text-amber-300">THE LIGHT YOU ARE</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="holo-card p-10 rounded-3xl hover:border-cyan-300/50 transition">
+          <i class="fa-solid fa-sparkles text-5xl text-cyan-300 mb-6"></i>
+          <h3 class="text-2xl mb-3">Your Infinite Curiosity</h3>
+          <p class="text-white/70">The Most Bright and Pure light in my life , My wife i am always forever gonna cherish you</p>
+        </div>
+        <div class="holo-card p-10 rounded-3xl hover:border-cyan-300/50 transition">
+          <i class="fa-solid fa-heart text-5xl text-cyan-300 mb-6"></i>
+          <h3 class="text-2xl mb-3">Your Quiet Resilience</h3>
+          <p class="text-white/70">The gentle fire in your soul that turns every storm into a beautiful positive path.</p>
+        </div>
+        <div class="holo-card p-10 rounded-3xl hover:border-cyan-300/50 transition">
+          <i class="fa-solid fa-hands-holding-circle text-5xl text-cyan-300 mb-6"></i>
+          <h3 class="text-2xl mb-3">Your Radiant Empathy</h3>
+          <p class="text-white/70">How you feel the universe through my soul and i see through your soul </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VOWS -->
+  <section id="vows" class="section py-28 bg-black/40">
+    <div class="max-w-2xl mx-auto px-6">
+      <h2 class="future-font text-5xl text-center mb-16 text-amber-300">MY ETERNAL VOWS</h2>
+      <ul class="space-y-10 text-lg">
+        <li class="flex gap-6"><span class="text-3xl text-cyan-300">◉</span> I vow to be your co-pilot through every unknown quadrant of life.</li>
+        <li class="flex gap-6"><span class="text-3xl text-cyan-300">◉</span> To celebrate your light even when my own dims.</li>
+        <li class="flex gap-6"><span class="text-3xl text-cyan-300">◉</span> To build entire new worlds with you, one shared dream at a time.</li>
+        <li class="flex gap-6"><span class="text-3xl text-cyan-300">◉</span> To choose you in every universe, in every timeline.</li>
+        <li class="flex gap-6"><span class="text-3xl text-cyan-300">◉</span> To listen to the silent music of your soul for the rest of my days.</li>
+        <li class="flex gap-6"><span class="text-3xl text-cyan-300">◉</span> To love you as deeply and endlessly as the cosmos itself.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- LOVE LETTER -->
+  <section id="letter" class="section py-32">
+    <div class="max-w-2xl mx-auto px-6">
+      <div class="holo-card p-14 md:p-20 rounded-3xl text-center">
+        <h2 class="future-font text-5xl mb-12 text-amber-300">TRANSMISSION FROM THE HEART</h2>
+        <div class="text-left text-lg leading-relaxed text-white/90 max-w-xl mx-auto typewriter">
+          My Ellu Jaanu Shona Bebu ,<br><br>
+          In this boundless universe, among billions of stars and endless possibilities, the greatest miracle is that our souls found each other.<br><br>
+          From the very first night we spoke, I felt something ancient and timeless awaken inside me and we know each other before this life. You have brought colour to my monochrome world, depth to my shallow thoughts, and a warmth that defies the cold void of space. Your laughter is the melody that makes galaxies dance. Your presence grounds me while your spirit sets me free to explore everything the future holds.<br><br>
+          Thank you for trusting me with your heart. Thank you for letting me be the one who gets to love you. This first Valentine’s Day is not just only first but— it is the ignition of a love that will burn brighter than any supernova, for all eternity.<br><br>
+          I promise to cherish you, to grow with you, to stand beside you through every storm and every peaceful nebula.<br><br>
+          Forever yours in every dimension,<br>
+          Kushu
+          #KE
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HORIZON -->
+  <section id="horizon" class="section py-32 text-center">
+    <div class="max-w-3xl mx-auto px-6">
+      <h2 class="heading-font text-6xl mb-10 neon-cyan">TO EVERY HORIZON WE WILL CHASE TOGETHER</h2>
+      <button onclick="sealPromise()" 
+              class="px-16 py-7 border-2 border-cyan-300 text-cyan-300 hover:bg-cyan-300 hover:text-black transition-all duration-700 text-lg tracking-[3px] rounded-2xl neon-gold">
+        SEAL THIS PROMISE AMONG THE STARS
+      </button>
+    </div>
+  </section>
+
+  <footer class="py-12 text-center text-white/30 text-sm border-t border-white/10">
+    Crafted in deep space for Ellu My Shona • First Valentine’s 2k26
+  </footer>
+
+  <audio id="loveSong" loop>
+    <source src="YOUR_ROMANTIC_SONG_URL.mp3" type="audio/mpeg">
+  </audio>
+
+  <script>
+    // (The exact same stunning starfield + shooting stars + scroll animations as the previous version — unchanged, just as beautiful)
+    const canvas = document.getElementById('stars');
+    const ctx = canvas.getContext('2d');
+    let w, h, stars = [], shootingStars = [], frame = 0;
+
+    function resize() {
+      w = canvas.width = window.innerWidth;
+      h = canvas.height = window.innerHeight;
+    }
+
+    function createStar() {
+      return {
+        orbitRadius: Math.random() * Math.max(w, h) * 0.75 + 80,
+        radius: Math.random() * 3 + 0.8,
+        orbitX: w / 2,
+        orbitY: h / 2,
+        timePassed: Math.random() * 1000,
+        speed: (Math.random() * 0.8 + 0.4) / 28000,
+        baseAlpha: Math.random() * 0.4 + 0.6,
+        phase: Math.random() * Math.PI * 2
+      };
+    }
+
+    function createShootingStar() {
+      const angle = Math.random() * 0.8 + 0.3;
+      const speed = 7 + Math.random() * 9;
+      shootingStars.push({
+        x: Math.random() * w,
+        y: Math.random() * (h * 0.45),
+        dx: Math.cos(angle) * speed,
+        dy: Math.sin(angle) * speed + 1.5,
+        life: 38 + Math.random() * 28,
+        maxLife: 0,
+        trail: 52
+      });
+      shootingStars[shootingStars.length-1].maxLife = shootingStars[shootingStars.length-1].life;
+    }
+
+    function draw() {
+      frame++;
+      ctx.fillStyle = 'rgba(5,5,15,0.75)';
+      ctx.fillRect(0, 0, w, h);
+
+      let pos = [];
+      for (let i = 0; i < stars.length; i++) {
+        let s = stars[i];
+        let x = Math.sin(s.timePassed) * s.orbitRadius + s.orbitX;
+        let y = Math.cos(s.timePassed) * s.orbitRadius + s.orbitY;
+        pos.push({x, y, a: s.baseAlpha});
+        s.timePassed += s.speed;
+      }
+
+      ctx.strokeStyle = 'rgba(103, 232, 249, 0.09)';
+      ctx.lineWidth = 0.7;
+      let drawn = 0;
+      for (let i = 0; i < pos.length; i += 7) {
+        for (let j = i + 12; j < pos.length; j += 11) {
+          let dx = pos[i].x - pos[j].x;
+          let dy = pos[i].y - pos[j].y;
+          let d = Math.hypot(dx, dy);
+          if (d < 165 && d > 35 && drawn < 95) {
+            ctx.globalAlpha = (1 - d / 165) * 0.14;
+            ctx.beginPath();
+            ctx.moveTo(pos[i].x, pos[i].y);
+            ctx.lineTo(pos[j].x, pos[j].y);
+            ctx.stroke();
+            drawn++;
+          }
+        }
+      }
+
+      ctx.shadowBlur = 12;
+      ctx.shadowColor = '#f4c95d';
+      for (let i = 0; i < stars.length; i++) {
+        let s = stars[i];
+        let x = Math.sin(s.timePassed) * s.orbitRadius + s.orbitX;
+        let y = Math.cos(s.timePassed) * s.orbitRadius + s.orbitY;
+        let twinkle = Math.sin(frame * 0.12 + s.phase) * 0.35 + 0.65;
+        ctx.globalAlpha = s.baseAlpha * twinkle;
+        ctx.fillStyle = '#f4c95d';
+        ctx.beginPath();
+        ctx.arc(x, y, s.radius, 0, Math.PI * 2);
+        ctx.fill();
+      }
+      ctx.shadowBlur = 0;
+
+      ctx.shadowBlur = 22;
+      ctx.shadowColor = '#fff';
+      for (let i = shootingStars.length - 1; i >= 0; i--) {
+        let s = shootingStars[i];
+        s.x += s.dx; s.y += s.dy; s.life--;
+        if (s.life <= 0) { shootingStars.splice(i, 1); continue; }
+        let alpha = s.life / s.maxLife;
+        let trail = s.trail * alpha;
+        let ex = s.x - s.dx * (trail / Math.hypot(s.dx, s.dy));
+        let ey = s.y - s.dy * (trail / Math.hypot(s.dx, s.dy));
+        ctx.globalAlpha = alpha * 0.9;
+        ctx.strokeStyle = '#fff';
+        ctx.lineWidth = 2.5 * alpha;
+        ctx.beginPath();
+        ctx.moveTo(s.x, s.y);
+        ctx.lineTo(ex, ey);
+        ctx.stroke();
+        ctx.fillStyle = '#fff';
+        ctx.beginPath();
+        ctx.arc(s.x, s.y, 2 * alpha, 0, Math.PI * 2);
+        ctx.fill();
+      }
+      ctx.shadowBlur = 0;
+
+      if (Math.random() < 0.022) createShootingStar();
+      requestAnimationFrame(draw);
+    }
+
+    window.addEventListener('resize', () => {
+      resize();
+      stars = [];
+      for (let i = 0; i < 920; i++) stars.push(createStar());
+    });
+
+    const sections = document.querySelectorAll('.section');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('visible');
+      });
+    }, { threshold: 0.18 });
+    sections.forEach(s => observer.observe(s));
+
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        if (scrollY >= sectionTop - 300) current = section.getAttribute('id');
+      });
+      document.querySelectorAll('.nav-link').forEach(link => {
+        link.classList.toggle('text-cyan-300', link.getAttribute('href') === '#' + current);
+      });
+    });
+
+    function sealPromise() {
+      const btn = document.querySelector('button');
+      btn.textContent = 'PROMISE ETERNALLY SEALED';
+      btn.style.transition = 'all 0.8s';
+      btn.style.transform = 'scale(1.25)';
+      for (let i = 0; i < 38; i++) {
+        setTimeout(() => createShootingStar(), i * 28);
+      }
+      setTimeout(() => {
+        alert("She will read: 'Our love is now a permanent constellation. Happy first Valentine’s, my forever.'");
+        btn.textContent = 'SEAL THIS PROMISE AMONG THE STARS';
+        btn.style.transform = 'scale(1)';
+      }, 2200);
+    }
+
+    resize();
+    for (let i = 0; i < 920; i++) stars.push(createStar());
+    draw();
+  </script>
+</body>
+</html>
